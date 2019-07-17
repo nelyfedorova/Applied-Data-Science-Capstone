@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_d2795928f34947818057ea8d70c679a8 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d2795928f34947818057ea8d70c679a8" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_d2795928f34947818057ea8d70c679a8 = L.map(
+                                  'map_d2795928f34947818057ea8d70c679a8',
+                                  {center: [33.7490987,-84.3901849],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_551a5f5cb1b64f8bacc65f3ed5775a0f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+        
+    
+            var circle_marker_43c23b00e18d4d60a51f68f762032807 = L.circleMarker(
+                [33.640758,-84.446341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_649b6fc796024220a135b206630421ad = L.popup({maxWidth: '300'});
+
+            
+                var html_06c46afd7f0e45c9ae5e456a923d226b = $('<div id="html_06c46afd7f0e45c9ae5e456a923d226b" style="width: 100.0%; height: 100.0%;">Airport: Travel &amp; Transport, Arts &amp; Entertainment</div>')[0];
+                popup_649b6fc796024220a135b206630421ad.setContent(html_06c46afd7f0e45c9ae5e456a923d226b);
+            
+
+            circle_marker_43c23b00e18d4d60a51f68f762032807.bindPopup(popup_649b6fc796024220a135b206630421ad);
+
+            
+        
+    
+            var circle_marker_a880308ce1554f19a6382386dc14be09 = L.circleMarker(
+                [33.789705,-84.387789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_f13a48106cf4425786827d7b82f5ba7b = L.popup({maxWidth: '300'});
+
+            
+                var html_228078179ee3487188ed118941ee1be1 = $('<div id="html_228078179ee3487188ed118941ee1be1" style="width: 100.0%; height: 100.0%;">Arts Center: Arts &amp; Entertainment, Nightlife Spot</div>')[0];
+                popup_f13a48106cf4425786827d7b82f5ba7b.setContent(html_228078179ee3487188ed118941ee1be1);
+            
+
+            circle_marker_a880308ce1554f19a6382386dc14be09.bindPopup(popup_f13a48106cf4425786827d7b82f5ba7b);
+
+            
+        
+    
+            var circle_marker_d5adba61e536475db839f4c4ca273002 = L.circleMarker(
+                [33.756346,-84.417556],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_d58f8fdf238f49f6a05f590263bfa085 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0448aeddc2548bbaca8e1d8f6a82218 = $('<div id="html_a0448aeddc2548bbaca8e1d8f6a82218" style="width: 100.0%; height: 100.0%;">Ashby: Nightlife Spot, Outdoors &amp; Recreation</div>')[0];
+                popup_d58f8fdf238f49f6a05f590263bfa085.setContent(html_a0448aeddc2548bbaca8e1d8f6a82218);
+            
+
+            circle_marker_d5adba61e536475db839f4c4ca273002.bindPopup(popup_d58f8fdf238f49f6a05f590263bfa085);
+
+            
+        
+    
+            var circle_marker_39200a463d264604a3797ae8419192d6 = L.circleMarker(
+                [33.775277,-84.281903],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_95274962a3d0487a8110782e006b5bae = L.popup({maxWidth: '300'});
+
+            
+                var html_14e759488bc743b3bc6720e4ccb34848 = $('<div id="html_14e759488bc743b3bc6720e4ccb34848" style="width: 100.0%; height: 100.0%;">Avondale: Outdoors &amp; Recreation, Nightlife Spot</div>')[0];
+                popup_95274962a3d0487a8110782e006b5bae.setContent(html_14e759488bc743b3bc6720e4ccb34848);
+            
+
+            circle_marker_39200a463d264604a3797ae8419192d6.bindPopup(popup_95274962a3d0487a8110782e006b5bae);
+
+            
+        
+    
+            var circle_marker_1690b91250b4489489409b187e8fc92b = L.circleMarker(
+                [33.77189,-84.42884000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_e7be387e1a27411ba173825d16dbaee0 = L.popup({maxWidth: '300'});
+
+            
+                var html_4343989de7ee4296b93f4af451e50e55 = $('<div id="html_4343989de7ee4296b93f4af451e50e55" style="width: 100.0%; height: 100.0%;">Bankhead: Outdoors &amp; Recreation, Food</div>')[0];
+                popup_e7be387e1a27411ba173825d16dbaee0.setContent(html_4343989de7ee4296b93f4af451e50e55);
+            
+
+            circle_marker_1690b91250b4489489409b187e8fc92b.bindPopup(popup_e7be387e1a27411ba173825d16dbaee0);
+
+            
+        
+    
+            var circle_marker_46bf65edd1ef4b6ab25e330e3c0b3991 = L.circleMarker(
+                [33.860705,-84.340003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_431c7197e0cc4b378d0a9f2ce7572590 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f4e3710c4ce46958f199e1f9bc2e64b = $('<div id="html_3f4e3710c4ce46958f199e1f9bc2e64b" style="width: 100.0%; height: 100.0%;">Brookhaven: Nightlife Spot, Food</div>')[0];
+                popup_431c7197e0cc4b378d0a9f2ce7572590.setContent(html_3f4e3710c4ce46958f199e1f9bc2e64b);
+            
+
+            circle_marker_46bf65edd1ef4b6ab25e330e3c0b3991.bindPopup(popup_431c7197e0cc4b378d0a9f2ce7572590);
+
+            
+        
+    
+            var circle_marker_3ffd76cc00c44f71be5bcb87b55c3716 = L.circleMarker(
+                [33.84841,-84.367018],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_ba270baca83a48ab9268d794f278e371 = L.popup({maxWidth: '300'});
+
+            
+                var html_fed5282263c945389a6568e0565ddd11 = $('<div id="html_fed5282263c945389a6568e0565ddd11" style="width: 100.0%; height: 100.0%;">Buckhead: Nightlife Spot, Professional &amp; Other Places</div>')[0];
+                popup_ba270baca83a48ab9268d794f278e371.setContent(html_fed5282263c945389a6568e0565ddd11);
+            
+
+            circle_marker_3ffd76cc00c44f71be5bcb87b55c3716.bindPopup(popup_ba270baca83a48ab9268d794f278e371);
+
+            
+        
+    
+            var circle_marker_c90746d71859429fb52c326c135c0bf3 = L.circleMarker(
+                [33.886191,-84.306957],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_c7ef4d7298e84960b75ade3cb15176bb = L.popup({maxWidth: '300'});
+
+            
+                var html_e2f03665db9c4685925300d9fa7d972b = $('<div id="html_e2f03665db9c4685925300d9fa7d972b" style="width: 100.0%; height: 100.0%;">Chamblee: Food, Outdoors &amp; Recreation</div>')[0];
+                popup_c7ef4d7298e84960b75ade3cb15176bb.setContent(html_e2f03665db9c4685925300d9fa7d972b);
+            
+
+            circle_marker_c90746d71859429fb52c326c135c0bf3.bindPopup(popup_c7ef4d7298e84960b75ade3cb15176bb);
+
+            
+        
+    
+            var circle_marker_16a27b8a5c06458c9de826accd11a0ec = L.circleMarker(
+                [33.766305,-84.387209],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_2c7ec517f5784266b8e8b02fd909f2e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5345fb804f31477b958efbac46cbe791 = $('<div id="html_5345fb804f31477b958efbac46cbe791" style="width: 100.0%; height: 100.0%;">Civic Center: Nightlife Spot, Residence</div>')[0];
+                popup_2c7ec517f5784266b8e8b02fd909f2e4.setContent(html_5345fb804f31477b958efbac46cbe791);
+            
+
+            circle_marker_16a27b8a5c06458c9de826accd11a0ec.bindPopup(popup_2c7ec517f5784266b8e8b02fd909f2e4);
+
+            
+        
+    
+            var circle_marker_1279b462b2b0460db65307ddbf9a550c = L.circleMarker(
+                [33.651673,-84.44879300000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_bfa5c0faeef340efa51044a7ea778d4a = L.popup({maxWidth: '300'});
+
+            
+                var html_0a62f27b7e834c73ab3d753ef6491da5 = $('<div id="html_0a62f27b7e834c73ab3d753ef6491da5" style="width: 100.0%; height: 100.0%;">College Park: Travel &amp; Transport, Arts &amp; Entertainment</div>')[0];
+                popup_bfa5c0faeef340efa51044a7ea778d4a.setContent(html_0a62f27b7e834c73ab3d753ef6491da5);
+            
+
+            circle_marker_1279b462b2b0460db65307ddbf9a550c.bindPopup(popup_bfa5c0faeef340efa51044a7ea778d4a);
+
+            
+        
+    
+            var circle_marker_f298225e30ae4413a4d9705ad6688bb9 = L.circleMarker(
+                [33.774717,-84.295588],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_ec4513710d3c4806a291b2a54ef73ff9 = L.popup({maxWidth: '300'});
+
+            
+                var html_203be53b75a24c2898cd48369b6e4947 = $('<div id="html_203be53b75a24c2898cd48369b6e4947" style="width: 100.0%; height: 100.0%;">Decatur: Nightlife Spot, Food</div>')[0];
+                popup_ec4513710d3c4806a291b2a54ef73ff9.setContent(html_203be53b75a24c2898cd48369b6e4947);
+            
+
+            circle_marker_f298225e30ae4413a4d9705ad6688bb9.bindPopup(popup_ec4513710d3c4806a291b2a54ef73ff9);
+
+            
+        
+    
+            var circle_marker_5750c84c10494bfdaf69691bc1f5da1f = L.circleMarker(
+                [33.756293,-84.397759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_8cc38f604eb849f39fbb2a9ff5f0b004 = L.popup({maxWidth: '300'});
+
+            
+                var html_8929beac6f6e4859af7d3ff6a2f58491 = $('<div id="html_8929beac6f6e4859af7d3ff6a2f58491" style="width: 100.0%; height: 100.0%;">Dome: Arts &amp; Entertainment, Nightlife Spot</div>')[0];
+                popup_8cc38f604eb849f39fbb2a9ff5f0b004.setContent(html_8929beac6f6e4859af7d3ff6a2f58491);
+            
+
+            circle_marker_5750c84c10494bfdaf69691bc1f5da1f.bindPopup(popup_8cc38f604eb849f39fbb2a9ff5f0b004);
+
+            
+        
+    
+            var circle_marker_ab85f28cdc284f27976bca29e6bf442c = L.circleMarker(
+                [33.902079,-84.280389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_9db7bbdf162c4adfb483c74cade9ecd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6b00e7a84ef458a893b60ba90bf1e79 = $('<div id="html_f6b00e7a84ef458a893b60ba90bf1e79" style="width: 100.0%; height: 100.0%;">Doraville: Nightlife Spot, Food</div>')[0];
+                popup_9db7bbdf162c4adfb483c74cade9ecd7.setContent(html_f6b00e7a84ef458a893b60ba90bf1e79);
+            
+
+            circle_marker_ab85f28cdc284f27976bca29e6bf442c.bindPopup(popup_9db7bbdf162c4adfb483c74cade9ecd7);
+
+            
+        
+    
+            var circle_marker_09cf1ba13bbb4f86b966ebe815ce58f4 = L.circleMarker(
+                [33.9212,-84.3444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_b4d9dbf53a2f4592b8c8940142606f48 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c7306c0ff954864adc6f52891eaaae9 = $('<div id="html_6c7306c0ff954864adc6f52891eaaae9" style="width: 100.0%; height: 100.0%;">Dunwoody: Travel &amp; Transport, Shop &amp; Service</div>')[0];
+                popup_b4d9dbf53a2f4592b8c8940142606f48.setContent(html_6c7306c0ff954864adc6f52891eaaae9);
+            
+
+            circle_marker_09cf1ba13bbb4f86b966ebe815ce58f4.bindPopup(popup_b4d9dbf53a2f4592b8c8940142606f48);
+
+            
+        
+    
+            var circle_marker_847b6cc66fcc4dfcba61a0abf45e568a = L.circleMarker(
+                [33.765166,-84.312665],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_266eb59ce9eb4b3ea4b206ee06dbe36f = L.popup({maxWidth: '300'});
+
+            
+                var html_5223231f5c9b45bb89a9e78ce9026b0e = $('<div id="html_5223231f5c9b45bb89a9e78ce9026b0e" style="width: 100.0%; height: 100.0%;">East Lake: Travel &amp; Transport, Outdoors &amp; Recreation</div>')[0];
+                popup_266eb59ce9eb4b3ea4b206ee06dbe36f.setContent(html_5223231f5c9b45bb89a9e78ce9026b0e);
+            
+
+            circle_marker_847b6cc66fcc4dfcba61a0abf45e568a.bindPopup(popup_266eb59ce9eb4b3ea4b206ee06dbe36f);
+
+            
+        
+    
+            var circle_marker_d57c9973e4a84405917acefb8e221d63 = L.circleMarker(
+                [33.677814,-84.440344],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_2b1ab8b5bb4941beb83ca12c090c5c13 = L.popup({maxWidth: '300'});
+
+            
+                var html_1504861328dd43eb8388b6c39c12170d = $('<div id="html_1504861328dd43eb8388b6c39c12170d" style="width: 100.0%; height: 100.0%;">East Point: Food, Arts &amp; Entertainment</div>')[0];
+                popup_2b1ab8b5bb4941beb83ca12c090c5c13.setContent(html_1504861328dd43eb8388b6c39c12170d);
+            
+
+            circle_marker_d57c9973e4a84405917acefb8e221d63.bindPopup(popup_2b1ab8b5bb4941beb83ca12c090c5c13);
+
+            
+        
+    
+            var circle_marker_949a6ce40d074bf6b274a1784024acef = L.circleMarker(
+                [33.762001,-84.339579],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_a1a48eabd3bc41ba942ea0bd20548073 = L.popup({maxWidth: '300'});
+
+            
+                var html_afe31714fc6840e8812bc214f6abb71d = $('<div id="html_afe31714fc6840e8812bc214f6abb71d" style="width: 100.0%; height: 100.0%;">Edgewood: Outdoors &amp; Recreation, Arts &amp; Entertainment</div>')[0];
+                popup_a1a48eabd3bc41ba942ea0bd20548073.setContent(html_afe31714fc6840e8812bc214f6abb71d);
+            
+
+            circle_marker_949a6ce40d074bf6b274a1784024acef.bindPopup(popup_a1a48eabd3bc41ba942ea0bd20548073);
+
+            
+        
+    
+            var circle_marker_7cb3f596dd8a43ad99006071083a94fb = L.circleMarker(
+                [33.753826,-84.391571],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_6e3d67ded5434cf6969357918e1d141a = L.popup({maxWidth: '300'});
+
+            
+                var html_68cd86b00d764cf6a2aa7815a9fdb4b9 = $('<div id="html_68cd86b00d764cf6a2aa7815a9fdb4b9" style="width: 100.0%; height: 100.0%;">Five Points: Nightlife Spot, Arts &amp; Entertainment</div>')[0];
+                popup_6e3d67ded5434cf6969357918e1d141a.setContent(html_68cd86b00d764cf6a2aa7815a9fdb4b9);
+            
+
+            circle_marker_7cb3f596dd8a43ad99006071083a94fb.bindPopup(popup_6e3d67ded5434cf6969357918e1d141a);
+
+            
+        
+    
+            var circle_marker_9662f68d9bf64ba2a76821905d7b12ec = L.circleMarker(
+                [33.747845,-84.396415],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_8ce45250e51c4466af78a92e4722d544 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9ea64d877b54fb3ad06e71b67ccb1fb = $('<div id="html_e9ea64d877b54fb3ad06e71b67ccb1fb" style="width: 100.0%; height: 100.0%;">Garnett: Arts &amp; Entertainment, Nightlife Spot</div>')[0];
+                popup_8ce45250e51c4466af78a92e4722d544.setContent(html_e9ea64d877b54fb3ad06e71b67ccb1fb);
+            
+
+            circle_marker_9662f68d9bf64ba2a76821905d7b12ec.bindPopup(popup_8ce45250e51c4466af78a92e4722d544);
+
+            
+        
+    
+            var circle_marker_919dd216ecd04ca787b22836fbcba698 = L.circleMarker(
+                [33.750539,-84.386464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_8d2fc485d6a04c97a2c3602000fde100 = L.popup({maxWidth: '300'});
+
+            
+                var html_ca36b2464b854bff98e12754ef90ff0f = $('<div id="html_ca36b2464b854bff98e12754ef90ff0f" style="width: 100.0%; height: 100.0%;">Georgia State: College &amp; University, Professional &amp; Other Places</div>')[0];
+                popup_8d2fc485d6a04c97a2c3602000fde100.setContent(html_ca36b2464b854bff98e12754ef90ff0f);
+            
+
+            circle_marker_919dd216ecd04ca787b22836fbcba698.bindPopup(popup_8d2fc485d6a04c97a2c3602000fde100);
+
+            
+        
+    
+            var circle_marker_8e715598d6c0496fa7f79f0868af9d45 = L.circleMarker(
+                [33.754638,-84.46794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_046023ddee18420582c72d587222a28b = L.popup({maxWidth: '300'});
+
+            
+                var html_1000d89163f24d31b3ec210cbfcb5fd0 = $('<div id="html_1000d89163f24d31b3ec210cbfcb5fd0" style="width: 100.0%; height: 100.0%;">H. E. Holmes: Travel &amp; Transport, Food</div>')[0];
+                popup_046023ddee18420582c72d587222a28b.setContent(html_1000d89163f24d31b3ec210cbfcb5fd0);
+            
+
+            circle_marker_8e715598d6c0496fa7f79f0868af9d45.bindPopup(popup_046023ddee18420582c72d587222a28b);
+
+            
+        
+    
+            var circle_marker_e62202e3273f4bb1bb3f94f86f9e7b0c = L.circleMarker(
+                [33.769794,-84.229656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_e39ef9ffed5c4e228176db6b6e9eea7a = L.popup({maxWidth: '300'});
+
+            
+                var html_1ccf25010dbe4b03b7d2b17289cdc543 = $('<div id="html_1ccf25010dbe4b03b7d2b17289cdc543" style="width: 100.0%; height: 100.0%;">Indian Creek: Travel &amp; Transport, Outdoors &amp; Recreation</div>')[0];
+                popup_e39ef9ffed5c4e228176db6b6e9eea7a.setContent(html_1ccf25010dbe4b03b7d2b17289cdc543);
+            
+
+            circle_marker_e62202e3273f4bb1bb3f94f86f9e7b0c.bindPopup(popup_e39ef9ffed5c4e228176db6b6e9eea7a);
+
+            
+        
+    
+            var circle_marker_b2f505587f10497b85bb41b0d1e6ddad = L.circleMarker(
+                [33.757497,-84.352797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_66889e34401d4d589097e2b1001d1f7d = L.popup({maxWidth: '300'});
+
+            
+                var html_c83af2cbcaaa490e88813ec8a59027c2 = $('<div id="html_c83af2cbcaaa490e88813ec8a59027c2" style="width: 100.0%; height: 100.0%;">Inman Park: Residence, Professional &amp; Other Places</div>')[0];
+                popup_66889e34401d4d589097e2b1001d1f7d.setContent(html_c83af2cbcaaa490e88813ec8a59027c2);
+            
+
+            circle_marker_b2f505587f10497b85bb41b0d1e6ddad.bindPopup(popup_66889e34401d4d589097e2b1001d1f7d);
+
+            
+        
+    
+            var circle_marker_748821c31a644a17815d82955f8f05e3 = L.circleMarker(
+                [33.772664,-84.251937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_ba6d06be24ea411a84a5354a711eb370 = L.popup({maxWidth: '300'});
+
+            
+                var html_41f8783aeb814fecac69a271aeb935eb = $('<div id="html_41f8783aeb814fecac69a271aeb935eb" style="width: 100.0%; height: 100.0%;">Kensington: Professional &amp; Other Places, Shop &amp; Service</div>')[0];
+                popup_ba6d06be24ea411a84a5354a711eb370.setContent(html_41f8783aeb814fecac69a271aeb935eb);
+            
+
+            circle_marker_748821c31a644a17815d82955f8f05e3.bindPopup(popup_ba6d06be24ea411a84a5354a711eb370);
+
+            
+        
+    
+            var circle_marker_f2d38463d7ca47e6bc83be6448c4f256 = L.circleMarker(
+                [33.749959,-84.37544],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_d4e9a7c9d4904be098e1488cb6d44ee0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1f850645fbc49d69fb0a2fdd2b69f46 = $('<div id="html_c1f850645fbc49d69fb0a2fdd2b69f46" style="width: 100.0%; height: 100.0%;">King Memorial: Nightlife Spot, Outdoors &amp; Recreation</div>')[0];
+                popup_d4e9a7c9d4904be098e1488cb6d44ee0.setContent(html_c1f850645fbc49d69fb0a2fdd2b69f46);
+            
+
+            circle_marker_f2d38463d7ca47e6bc83be6448c4f256.bindPopup(popup_d4e9a7c9d4904be098e1488cb6d44ee0);
+
+            
+        
+    
+            var circle_marker_ec5bb69321e04105b677d4cfd699b382 = L.circleMarker(
+                [33.700457,-84.428859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_d3e3e151af9947258f0d1421bc55e3a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8608e03feb6b43d3803f5445da045c38 = $('<div id="html_8608e03feb6b43d3803f5445da045c38" style="width: 100.0%; height: 100.0%;">Lakewood: Travel &amp; Transport, Arts &amp; Entertainment</div>')[0];
+                popup_d3e3e151af9947258f0d1421bc55e3a3.setContent(html_8608e03feb6b43d3803f5445da045c38);
+            
+
+            circle_marker_ec5bb69321e04105b677d4cfd699b382.bindPopup(popup_d3e3e151af9947258f0d1421bc55e3a3);
+
+            
+        
+    
+            var circle_marker_30a7fd123268426b9baf26c1f12c9c39 = L.circleMarker(
+                [33.847144,-84.35631],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_2fccc64d3e054add93d78c2e84f0957f = L.popup({maxWidth: '300'});
+
+            
+                var html_b1418013f000412d879c09dfd37533c9 = $('<div id="html_b1418013f000412d879c09dfd37533c9" style="width: 100.0%; height: 100.0%;">Lenox: Nightlife Spot, Professional &amp; Other Places</div>')[0];
+                popup_2fccc64d3e054add93d78c2e84f0957f.setContent(html_b1418013f000412d879c09dfd37533c9);
+            
+
+            circle_marker_30a7fd123268426b9baf26c1f12c9c39.bindPopup(popup_2fccc64d3e054add93d78c2e84f0957f);
+
+            
+        
+    
+            var circle_marker_7be092121d5040ac88d4e338d4d7c8e6 = L.circleMarker(
+                [33.821995,-84.367447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_ed435d59c63845d6b2cdec275a2b4977 = L.popup({maxWidth: '300'});
+
+            
+                var html_f91170eea4a14669bf02c8ca55ec697f = $('<div id="html_f91170eea4a14669bf02c8ca55ec697f" style="width: 100.0%; height: 100.0%;">Lindbergh Center: Nightlife Spot, Residence</div>')[0];
+                popup_ed435d59c63845d6b2cdec275a2b4977.setContent(html_f91170eea4a14669bf02c8ca55ec697f);
+            
+
+            circle_marker_7be092121d5040ac88d4e338d4d7c8e6.bindPopup(popup_ed435d59c63845d6b2cdec275a2b4977);
+
+            
+        
+    
+            var circle_marker_1df64d0034664ab792184c7c8865168f = L.circleMarker(
+                [33.910689,-84.352684],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_776878fe49ad46a3979e6a9614f5c0e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5897b0148d0e45a08d26c5ef577a0467 = $('<div id="html_5897b0148d0e45a08d26c5ef577a0467" style="width: 100.0%; height: 100.0%;">Medical Center: Food, Shop &amp; Service</div>')[0];
+                popup_776878fe49ad46a3979e6a9614f5c0e1.setContent(html_5897b0148d0e45a08d26c5ef577a0467);
+            
+
+            circle_marker_1df64d0034664ab792184c7c8865168f.bindPopup(popup_776878fe49ad46a3979e6a9614f5c0e1);
+
+            
+        
+    
+            var circle_marker_5a498f0e8ce240918a24933a02428edd = L.circleMarker(
+                [33.781121,-84.38634499999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_70235496a07844d9bad94701a9b61253 = L.popup({maxWidth: '300'});
+
+            
+                var html_2995de7177a94cb88bde33eac95fe82c = $('<div id="html_2995de7177a94cb88bde33eac95fe82c" style="width: 100.0%; height: 100.0%;">Midtown: Nightlife Spot, Food</div>')[0];
+                popup_70235496a07844d9bad94701a9b61253.setContent(html_2995de7177a94cb88bde33eac95fe82c);
+            
+
+            circle_marker_5a498f0e8ce240918a24933a02428edd.bindPopup(popup_70235496a07844d9bad94701a9b61253);
+
+            
+        
+    
+            var circle_marker_6034bf0f14c64614a0d4ec68153a4b08 = L.circleMarker(
+                [33.771712,-84.386699],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_b15885a4e2bf4018b1365166a0532c61 = L.popup({maxWidth: '300'});
+
+            
+                var html_14575d17ecf14490a57b847da4d044f1 = $('<div id="html_14575d17ecf14490a57b847da4d044f1" style="width: 100.0%; height: 100.0%;">North Avenue: Arts &amp; Entertainment, Nightlife Spot</div>')[0];
+                popup_b15885a4e2bf4018b1365166a0532c61.setContent(html_14575d17ecf14490a57b847da4d044f1);
+            
+
+            circle_marker_6034bf0f14c64614a0d4ec68153a4b08.bindPopup(popup_b15885a4e2bf4018b1365166a0532c61);
+
+            
+        
+    
+            var circle_marker_a26300b594c347a69122a2df8ac2b49f = L.circleMarker(
+                [33.944552,-84.356206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_d09a01d1363b4270b807feb47f31149e = L.popup({maxWidth: '300'});
+
+            
+                var html_56e53cdedb5f4786a6c0986c46198daa = $('<div id="html_56e53cdedb5f4786a6c0986c46198daa" style="width: 100.0%; height: 100.0%;">North Springs: Travel &amp; Transport, Outdoors &amp; Recreation</div>')[0];
+                popup_d09a01d1363b4270b807feb47f31149e.setContent(html_56e53cdedb5f4786a6c0986c46198daa);
+            
+
+            circle_marker_a26300b594c347a69122a2df8ac2b49f.bindPopup(popup_d09a01d1363b4270b807feb47f31149e);
+
+            
+        
+    
+            var circle_marker_d2c1ee6ad3784f80a0b21918dc51fbb1 = L.circleMarker(
+                [33.716848,-84.4252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_1fdbd43a22ae42aab854dbaa86fddb0f = L.popup({maxWidth: '300'});
+
+            
+                var html_53629f47a9f8423cb627716d878cda40 = $('<div id="html_53629f47a9f8423cb627716d878cda40" style="width: 100.0%; height: 100.0%;">Oakland City: Arts &amp; Entertainment, Outdoors &amp; Recreation</div>')[0];
+                popup_1fdbd43a22ae42aab854dbaa86fddb0f.setContent(html_53629f47a9f8423cb627716d878cda40);
+            
+
+            circle_marker_d2c1ee6ad3784f80a0b21918dc51fbb1.bindPopup(popup_1fdbd43a22ae42aab854dbaa86fddb0f);
+
+            
+        
+    
+            var circle_marker_50ba5acb7764438bac968684c596a888 = L.circleMarker(
+                [33.759677,-84.387548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_98abbbbb00cf4009935f97fed82aaf55 = L.popup({maxWidth: '300'});
+
+            
+                var html_8bfe2547d47642298dcb41592253b1b3 = $('<div id="html_8bfe2547d47642298dcb41592253b1b3" style="width: 100.0%; height: 100.0%;">Peachtree Center: Nightlife Spot, Travel &amp; Transport</div>')[0];
+                popup_98abbbbb00cf4009935f97fed82aaf55.setContent(html_8bfe2547d47642298dcb41592253b1b3);
+            
+
+            circle_marker_50ba5acb7764438bac968684c596a888.bindPopup(popup_98abbbbb00cf4009935f97fed82aaf55);
+
+            
+        
+    
+            var circle_marker_417c9c2df5ed44d2823e46c9cfc60659 = L.circleMarker(
+                [33.933035,-84.352019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_a070427d10b14892ac556d355610112d = L.popup({maxWidth: '300'});
+
+            
+                var html_0f7b3ddac79f459db7259070741a11ab = $('<div id="html_0f7b3ddac79f459db7259070741a11ab" style="width: 100.0%; height: 100.0%;">Sandy Springs: Arts &amp; Entertainment, Nightlife Spot</div>')[0];
+                popup_a070427d10b14892ac556d355610112d.setContent(html_0f7b3ddac79f459db7259070741a11ab);
+            
+
+            circle_marker_417c9c2df5ed44d2823e46c9cfc60659.bindPopup(popup_a070427d10b14892ac556d355610112d);
+
+            
+        
+    
+            var circle_marker_b9df578e26074dcc9ff221380c9a62be = L.circleMarker(
+                [33.75687,-84.40391],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_741cc1720d0b4fa6bdcc8d6c591a8c0c = L.popup({maxWidth: '300'});
+
+            
+                var html_1f503d916ec94edcabb80aaf8518f4bd = $('<div id="html_1f503d916ec94edcabb80aaf8518f4bd" style="width: 100.0%; height: 100.0%;">Vine City: Outdoors &amp; Recreation, Arts &amp; Entertainment</div>')[0];
+                popup_741cc1720d0b4fa6bdcc8d6c591a8c0c.setContent(html_1f503d916ec94edcabb80aaf8518f4bd);
+            
+
+            circle_marker_b9df578e26074dcc9ff221380c9a62be.bindPopup(popup_741cc1720d0b4fa6bdcc8d6c591a8c0c);
+
+            
+        
+    
+            var circle_marker_9c347517b21e497499ff39406563d141 = L.circleMarker(
+                [33.73581,-84.41296],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_4a69028a569a44f78365f08c7de80d20 = L.popup({maxWidth: '300'});
+
+            
+                var html_c466fe2c813a429fb7050774372349b8 = $('<div id="html_c466fe2c813a429fb7050774372349b8" style="width: 100.0%; height: 100.0%;">West End: Arts &amp; Entertainment, Food</div>')[0];
+                popup_4a69028a569a44f78365f08c7de80d20.setContent(html_c466fe2c813a429fb7050774372349b8);
+            
+
+            circle_marker_9c347517b21e497499ff39406563d141.bindPopup(popup_4a69028a569a44f78365f08c7de80d20);
+
+            
+        
+    
+            var circle_marker_ee26dc87475a4af5af6237d1463e92e6 = L.circleMarker(
+                [33.75314,-84.44658000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f4a8a7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_d2795928f34947818057ea8d70c679a8);
+            
+    
+            var popup_09f43c3b8a704564bf66bfbc61e7f5ff = L.popup({maxWidth: '300'});
+
+            
+                var html_90f52e9bfdd54ee5b9e9340d860654ff = $('<div id="html_90f52e9bfdd54ee5b9e9340d860654ff" style="width: 100.0%; height: 100.0%;">West Lake: Travel &amp; Transport, Food</div>')[0];
+                popup_09f43c3b8a704564bf66bfbc61e7f5ff.setContent(html_90f52e9bfdd54ee5b9e9340d860654ff);
+            
+
+            circle_marker_ee26dc87475a4af5af6237d1463e92e6.bindPopup(popup_09f43c3b8a704564bf66bfbc61e7f5ff);
+
+            
+        
+</script>
